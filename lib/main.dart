@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Calculator',
       theme: ThemeData(
                 primarySwatch: Colors.blue,
                 visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -113,8 +113,7 @@ class _MyHomePageState extends State<MyHomePage>
             children: <Widget>[
               Container(
                   alignment: Alignment.centerRight,
-                  padding:
-                  EdgeInsets.symmetric(vertical: 24.0, horizontal: 12.0),
+                  padding: EdgeInsets.symmetric(vertical: 24.0, horizontal: 12.0),
                   child: Text(
                     output,
                     style: TextStyle(
